@@ -12,7 +12,7 @@ import Conatct from './Components/Conatct/Conatct.jsx'
 function App() {
   const myRouter = createBrowserRouter([ 
     {path: "/", element: <Layout/>, children :[
-      {index : true , element:<Home/>},
+      {index : true , element: <Home/>},
       {path: "/about" , element: <About/>},
       {path: "/portfolio" , element: <Portfolio/>},
       {path: "/conatct" , element: <Conatct/>},
