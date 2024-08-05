@@ -2,11 +2,11 @@
   "name": "project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://AyaAbdelaal15.github.io/startFramework",
+  "homepage": "https://AyaAbdelaal15.github.io/start_Framework",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
