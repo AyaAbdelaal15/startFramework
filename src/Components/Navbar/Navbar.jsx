@@ -14,7 +14,7 @@ const Navbar = () => {
     ];
   
     return (
-      <div className=' fixed bg-[#2C3E50] flex justify-between items-center h-24 w-full mx-auto lg:px-28 md:px-10 px-5 text-white z-[999]'>
+      <div className='fixed bg-[#2C3E50] flex justify-between items-center h-24 w-full mx-auto lg:px-28 md:px-10 px-5 text-white z-[999]'>
         <div>
         <Link  className='w-full md:text-[32px] text-xl font-bold '> Start Framework  </Link>
         </div>
